@@ -1,0 +1,156 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+header {
+  background-color: #e8c4e2;
+  color: white;
+  padding: 1rem;
+  text-align: center; /* Center align header text */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: rgb(17, 15, 15);
+  text-decoration: none;
+  font-weight: bold; /* Make navigation links bold */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #245504;
+  text-align: center; /* Center align headings */
+}
+
+/* Container styles */
+.container {
+  padding: 20px;
+}
+.about-container, .contact-container, .home-container {
+  text-align: center; /* Center text for these sections */
+  margin: 20px;
+}
+
+/* Styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Home Image Styles */
+.home-image {
+  width: 100%; /* Full width for smaller screens */
+  max-width: 1000px; /* Limit width for desktop */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Service List */
+.service-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-list li {
+  margin: 10px 0;
+}
+
+.service-list li a {
+  text-decoration: none;
+  color: #15191d;
+}
+
+.service-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Service Detail */
+.service-detail {
+  padding: 10px;
+  border: 1px solid #2a2d31;
+  margin-top: 10px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Section Styles */
+section {
+  margin: 20px 0;
+}
+
+/* About and Contact Section Styles */
+.about-container, .contact-container {
+  text-align: center; /* Center text for these sections */
+  margin: 20px;
+}
+
+.about-image  {
+  max-width: 800px; /* Adjust max width for these images */
+  width: 100%; /* Responsive */
+  height: auto;
+  border-radius: 10px; /* Optional rounded corners */
+}
+.contact-image {
+  max-width: 600px; /* Adjust max width for these images */
+  width: 100%; /* Responsive */
+  height: auto;
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Catering, Delivery, Takeout Section Styles */
+.service-item {
+  padding: 15px;
+  border: 1px solid #007bff; /* Border for each service */
+  border-radius: 8px; /* Rounded corners */
+  margin: 10px 0;
+  background-color: #ffffff; /* White background for contrast */
+  transition: box-shadow 0.3s; /* Smooth shadow effect on hover */
+}
+
+.service-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.service-title {
+  color: #007bff; /* Color for service titles */
+  margin-bottom: 10px; /* Space below titles */
+}
+
+.service-description {
+  color: #343a40; /* Dark color for service descriptions */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block; /* Stack navigation links vertically on small screens */
+    margin: 5px 0;
+  }
+  
+  h1 {
+    font-size: 1.5em; /* Smaller heading size for mobile */
+  }
+
+  p {
+    font-size: 1em; /* Adjust paragraph text size */
+  }
+}
